@@ -121,7 +121,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 			break;
 		
 		case WM_COMMAND:
-        	switch(wParam)
+        	switch(wParam)  
 			{
 				case FILE_MENU_EXIT :
 					DestroyWindow(hwnd);

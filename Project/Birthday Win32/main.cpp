@@ -21,7 +21,7 @@ LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
  HDC hdc;
  TCHAR str1[] = TEXT("Happy ");
  TCHAR str2[] = TEXT("Birthday");
- TCHAR str3[] = TEXT("Win32 !!!");
+ TCHAR str3[] = TEXT("Piyush Sir!!!");
 
 // Font Decleartions
  HFONT hFont1 = CreateFont(28,10,0,0,FW_BOLD,TRUE,FALSE,FALSE,CHINESEBIG5_CHARSET,OUT_OUTLINE_PRECIS,
@@ -106,7 +106,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	RECT rc;
 	PAINTSTRUCT ps;
 	int i;
-	TCHAR str4[] = TEXT("Happy Birthday Win32 !!!");
+	TCHAR str4[] = TEXT("Happy Birthday Piyush Sir !!!");
 	
 	static int iPaintFlag = 0;
 	// Code
